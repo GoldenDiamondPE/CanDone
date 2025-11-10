@@ -37,3 +37,12 @@ document.getElementById('search').addEventListener('click', () => {
             <p><img src="https:${data.current.condition.icon}" alt="icon"> ${data.current.temp_f}°F - ${data.current.condition.text}</p>
         `;
 */
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
